@@ -18,12 +18,8 @@
       "url": "https://github.com/kypvalanx"
     }
   ],
-  "esmodules": [
-    "module/swse.js"
-  ],
-  "styles": [
-    "css/swse.css"
-  ],
+  "esmodules": ["src/module/swse.js"],
+  "styles": ["css/swse.css"],
   "scripts": [],
   "packs": [
     {

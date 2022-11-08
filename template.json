@@ -1,12 +1,6 @@
 {
   "Actor": {
-    "types": [
-      "character",
-      "npc",
-      "computer",
-      "vehicle",
-      "npc-vehicle"
-    ],
+    "types": ["character", "npc", "computer", "vehicle", "npc-vehicle"],
     "templates": {
       "alignment": {
         "darkSideScore": 0,
@@ -39,7 +33,7 @@
       },
       "crew": {
         "crewQuality": {},
-        "crew" : []
+        "crew": []
       },
       "characterAttributes": {
         "attributes": {
@@ -431,61 +425,30 @@
       }
     },
     "character": {
-      "templates": [
-        "common",
-        "alignment",
-        "characterAttributes",
-        "crew",
-        "equipment",
-        "characterSkills"
-      ],
+      "templates": ["common", "alignment", "characterAttributes", "crew", "equipment", "characterSkills"],
       "biography": "",
-      "attributes": {
-      }
+      "attributes": {}
     },
     "npc": {
-      "templates": [
-        "common",
-        "alignment",
-        "characterAttributes",
-        "crew",
-        "equipment",
-        "characterSkills"
-      ],
+      "templates": ["common", "alignment", "characterAttributes", "crew", "equipment", "characterSkills"],
       "biography": "",
-      "attributes": {
-      }
+      "attributes": {}
     },
     "vehicle": {
-      "templates": [
-        "common",
-        "crew",
-        "vehicleAttributes",
-        "equipment",
-        "vehicleSkills"
-      ],
+      "templates": ["common", "crew", "vehicleAttributes", "equipment", "vehicleSkills"],
       "biography": "",
-      "attributes": {
-      }
+      "attributes": {}
     },
     "npc-vehicle": {
-      "templates": [
-        "common",
-        "crew",
-        "vehicleAttributes",
-        "equipment",
-        "vehicleSkills"
-      ],
+      "templates": ["common", "crew", "vehicleAttributes", "equipment", "vehicleSkills"],
       "biography": "",
-      "attributes": {
-      }
+      "attributes": {}
     },
     "computer": {
       "templates": [],
       "content": "",
       "cursor": "root",
-      "attributes": {
-      }
+      "attributes": {}
     }
   },
   "Item": {
@@ -550,8 +513,7 @@
       "categories": {
         "categories": []
       },
-      "health": {
-      },
+      "health": {},
       "source": {
         "supplier": {},
         "possibleProviders": [],
@@ -566,186 +528,82 @@
       }
     },
     "trait": {
-      "templates": [
-        "base",
-        "categories",
-        "source",
-        "prerequisites"
-      ]
+      "templates": ["base", "categories", "source", "prerequisites"]
     },
     "beastSense": {
-      "templates": [
-        "base",
-        "categories",
-        "source",
-        "prerequisites"
-      ]
+      "templates": ["base", "categories", "source", "prerequisites"]
     },
     "beastType": {
-      "templates": [
-        "base",
-        "categories",
-        "source",
-        "prerequisites"
-      ]
+      "templates": ["base", "categories", "source", "prerequisites"]
     },
     "beastQuality": {
-      "templates": [
-        "base",
-        "categories",
-        "source",
-        "prerequisites"
-      ]
+      "templates": ["base", "categories", "source", "prerequisites"]
     },
     "beastAttack": {
-      "templates": [
-        "base",
-        "item",
-        "categories",
-        "modifiable",
-        "source",
-        "mode"
-      ]
+      "templates": ["base", "item", "categories", "modifiable", "source", "mode"]
     },
     "weapon": {
-      "templates": [
-        "base",
-        "item",
-        "categories",
-        "modifiable",
-        "source",
-        "mode"
-      ],
+      "templates": ["base", "item", "categories", "modifiable", "source", "mode"],
       "weapon": {}
     },
     "armor": {
-      "templates": [
-        "base",
-        "item",
-        "categories",
-        "modifiable",
-        "source"
-      ],
+      "templates": ["base", "item", "categories", "modifiable", "source"],
       "armorType": ""
     },
     "equipment": {
-      "templates": [
-        "base",
-        "item",
-        "categories",
-        "modifiable",
-        "source"
-      ],
+      "templates": ["base", "item", "categories", "modifiable", "source"],
       "equipment": {}
     },
     "template": {
-      "templates": [
-        "base",
-        "mod"
-      ]
+      "templates": ["base", "mod"]
     },
     "language": {
-      "templates": [
-        "base"
-      ]
+      "templates": ["base"]
     },
     "vehicleTemplate": {
-      "templates": [
-        "base",
-        "item",
-        "mod"
-      ]
+      "templates": ["base", "item", "mod"]
     },
     "upgrade": {
-      "templates": [
-        "base",
-        "item",
-        "mod"
-      ],
+      "templates": ["base", "item", "mod"],
       "upgrade": {}
     },
     "feat": {
-      "templates": [
-        "base",
-        "prerequisites",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "prerequisites", "categories", "source"]
     },
     "talent": {
-      "templates": [
-        "base",
-        "prerequisites",
-        "categories",
-        "source"
-      ],
+      "templates": ["base", "prerequisites", "categories", "source"],
       "talentTree": "",
       "talentTreeSource": "",
       "talentTreeUrl": "",
       "bonusTalentTree": ""
     },
     "species": {
-      "templates": [
-        "base",
-        "categories"
-      ],
+      "templates": ["base", "categories"],
       "traits": []
     },
     "forcePower": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     },
     "affiliation": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     },
     "forceTechnique": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     },
     "forceSecret": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     },
     "forceRegimen": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     },
     "class": {
-      "templates": [
-        "base",
-        "prerequisites",
-        "health",
-        "levels"
-      ]
+      "templates": ["base", "prerequisites", "health", "levels"]
     },
     "classFeature": {
-      "templates": [
-        "base",
-        "source"
-      ]
+      "templates": ["base", "source"]
     },
     "starshipManeuver": {
-      "templates": [
-        "base",
-        "categories",
-        "source"
-      ]
+      "templates": ["base", "categories", "source"]
     }
   }
 }

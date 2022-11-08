@@ -1,17 +1,16 @@
 .species-container {
-  .species{
+  .species {
     display: flex;
 
-    .species-image{
+    .species-image {
       display: block;
     }
-    img{
+    img {
       height: 32px;
       width: 32px;
-
     }
-    div{
-      flex:1;
+    div {
+      flex: 1;
     }
   }
 }

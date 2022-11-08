@@ -5,30 +5,30 @@
 .resource-block {
   padding: 3px;
 }
-.center{
+.center {
   text-align: center;
   margin: auto;
 }
-.header-row{
-  height:20px;
+.header-row {
+  height: 20px;
   max-height: 20px;
   min-height: 20px;
 }
-.search-row{
-  height:30px;
+.search-row {
+  height: 30px;
   max-height: 30px;
   min-height: 30px;
 }
-.scroll-container{
+.scroll-container {
   overflow-y: scroll;
 }
-table.fixed{
+table.fixed {
   table-layout: fixed;
   tr {
     line-height: 28px;
     td {
       white-space: nowrap;
-      .direct{
+      .direct {
         text-decoration: underline;
       }
 
@@ -37,7 +37,7 @@ table.fixed{
         width: 100%;
       }
 
-      span.short{
+      span.short {
         width: 85%;
       }
 
@@ -46,27 +46,26 @@ table.fixed{
         width: 100%;
       }
 
-      input.short{
+      input.short {
         width: 85%;
       }
     }
   }
 }
-.padding-3{
+.padding-3 {
   padding: 3px;
 }
-.direct{
+.direct {
   cursor: text;
 }
-.button{
+.button {
   cursor: pointer;
 }
 
-.draggable{
-
+.draggable {
 }
 
-.border{
+.border {
   border: 1px solid black;
 }
 table.skill {
@@ -79,22 +78,22 @@ table.skill {
   }
 }
 
-.warning{
+.warning {
   opacity: 50%;
   background-color: yellow;
 }
 
-.error{
+.error {
   opacity: 90%;
   background-color: red;
   color: white;
 }
 
-.shrink{
+.shrink {
   resize: both;
   display: inline-block;
 }
-.rollEquation{
+.rollEquation {
   word-wrap: break-word;
 }
 //.container{
@@ -109,16 +108,17 @@ table.skill {
 //  cursor: grab;
 //}
 
-.movable, .container{
+.movable,
+.container {
   width: 50px;
   height: 50px;
   min-width: 50px;
   min-height: 50px;
 }
-.container{
+.container {
   border: 1px dotted dimgray;
 }
-.dark-side-button{
+.dark-side-button {
   width: 30px;
   height: 50px;
   min-width: 30px;
@@ -128,46 +128,45 @@ table.skill {
   text-align: center;
   border: 1px solid;
 }
-.dark-side-block{
-   width: 380px;
+.dark-side-block {
+  width: 380px;
   max-width: 380px;
- }
-.dark-side-button.active{
+}
+.dark-side-button.active {
   background-color: red;
 }
 
-.movable{
+.movable {
   padding: 17px;
   text-align: center;
   border: 1px solid;
 }
-.text-center{
-   text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.tiny{
-  width: 25px
+.tiny {
+  width: 25px;
 }
-.small{
-  width: 90px
+.small {
+  width: 90px;
 }
 
-.top{
+.top {
   display: block;
 }
 
-.min-width-15{
-
+.min-width-15 {
   min-width: 15px;
 }
 
-.fas{
+.fas {
   horiz-align: center;
   min-width: 16px;
   padding: 3px;
 }
 
-.portrait-container{
+.portrait-container {
   width: 200px;
   height: 200px;
 }

@@ -11,7 +11,7 @@
   .item {
     line-height: 24px;
     padding: 3px 0;
-    border-bottom: 1px solid #BBB;
+    border-bottom: 1px solid #bbb;
 
     .item-image {
       flex: 0 0 24px;
@@ -23,22 +23,22 @@
     }
   }
 
-  .description{
-    background-color: rgba(0,0,0,0.05);
+  .description {
+    background-color: rgba(0, 0, 0, 0.05);
   }
 
   .feat {
     height: 60px;
     line-height: 24px;
     padding: 3px 0;
-    border-bottom: 1px solid #BBB;
+    border-bottom: 1px solid #bbb;
   }
 
   .item-name {
     margin: 0;
   }
 
-  .strikethrough{
+  .strikethrough {
     text-decoration: line-through;
   }
 
@@ -47,9 +47,9 @@
   }
 }
 
-td{
+td {
   text-align: center;
 }
- .item-attribute{
-   cursor: pointer;
- }
+.item-attribute {
+  cursor: pointer;
+}

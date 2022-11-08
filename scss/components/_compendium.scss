@@ -1,10 +1,10 @@
-.directory-item{
-  div{
+.directory-item {
+  div {
     padding: 3px;
   }
   border-bottom: thin solid #7a7971;
 }
-.compendium-filter{
+.compendium-filter {
   position: relative;
   padding: 4px 6px;
   line-height: 24px;
@@ -18,24 +18,23 @@
   right: 0;
 }
 
-.selectable:hover{
+.selectable:hover {
   text-shadow: 0 0 8px var(--color-shadow-primary);
 }
 
-.selectable{
+.selectable {
   cursor: pointer;
 }
 
-
-.directory-list{
+.directory-list {
   overflow: auto;
   height: 99%;
 }
 
-.compendium-browser{
-  height: 100%
+.compendium-browser {
+  height: 100%;
 }
 
-.directory-container{
-  height:90%
+.directory-container {
+  height: 90%;
 }

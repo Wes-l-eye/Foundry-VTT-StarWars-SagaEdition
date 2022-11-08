@@ -8,31 +8,31 @@
   justify-content: space-between;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 
-.flex-row{
+.flex-row {
   flex-direction: row;
 }
-.flex-row-reverse{
+.flex-row-reverse {
   flex-direction: row-reverse;
 }
 
 .flex-grow,
-.flex-grow1{
+.flex-grow1 {
   flex-grow: 1;
 }
 
-.flex-grow2{
+.flex-grow2 {
   flex-grow: 2;
 }
 
-.flex{
+.flex {
   align-content: stretch;
   display: flex;
 }
-.flex-wrap    {
+.flex-wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
