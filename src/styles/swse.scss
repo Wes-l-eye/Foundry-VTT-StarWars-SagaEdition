@@ -1,4 +1,28 @@
-/* ---------------------------- */
-/*             Sass             */
-/* This is your Sass entry file */
-/* ---------------------------- */
+// Import utilities.
+@import 'src/styles/utils/typography';
+@import 'src/styles/utils/colors';
+@import 'src/styles/utils/mixins';
+@import 'src/styles/utils/variables';
+
+/* Global styles */
+@import 'src/styles/global/window';
+@import 'src/styles/global/grid';
+@import 'src/styles/global/flex';
+
+/* Styles limited to swse sheets */
+.swse {
+  @import 'src/styles/components/forms';
+  @import 'src/styles/components/resource';
+  @import 'src/styles/components/tabs';
+  @import 'src/styles/components/items';
+  @import 'src/styles/components/item';
+  @import 'src/styles/components/species';
+  @import 'src/styles/components/summary';
+  @import 'src/styles/components/attack';
+  @import 'src/styles/components/attributes';
+  @import 'src/styles/components/defenses';
+  @import 'src/styles/components/item_attribute';
+  @import 'src/styles/components/item_provided_item';
+  @import 'src/styles/components/vehicle';
+  @import 'src/styles/components/compendium';
+}

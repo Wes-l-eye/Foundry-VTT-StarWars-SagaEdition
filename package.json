@@ -3,7 +3,7 @@
   "name": "swse",
   "description": "Foundry VTT Implementation for the Star Wars Saga Edition system",
   "license": "MIT",
-  "homepage": "<optionally the URL to your repository or another homepage>",
+  "homepage": "https://github.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition",
   "repository": {
     "type": "git",
     "url": "https://github.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition"

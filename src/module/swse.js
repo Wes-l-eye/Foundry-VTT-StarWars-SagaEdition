@@ -9,12 +9,12 @@ import { refreshActors, registerSystemSettings } from './settings/system.js';
 import { registerHandlebarsHelpers } from './settings/helpers.js';
 import { deleteEmptyCompendiums, generateCompendiums } from './compendium/generation.js';
 import { getInheritableAttribute } from './attribute-helper.js';
-import { runTests } from '../module_test/runTests.js';
 import { makeAttack } from './actor/attack.js';
 import { measureDistances } from './measure.js';
 import { SWSECompendiumBrowser } from './compendium/compendium-browser.js';
 import { SWSECompendiumDirectory } from './compendium/compendium-directory.js';
 
+console.log('system initializing...');
 Hooks.once('init', async function () {
   game.swse = {
     SWSEActor,
@@ -24,7 +24,6 @@ Hooks.once('init', async function () {
     makeAttack,
     generateCompendiums,
     deleteEmptyCompendiums,
-    runTests,
     refreshActors,
     applications: {
       SWSECompendiumBrowser,

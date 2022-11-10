@@ -19,7 +19,7 @@
     }
   ],
   "esmodules": ["src/module/swse.js"],
-  "styles": ["css/swse.css"],
+  "styles": ["dist/styles/swse.css"],
   "scripts": [],
   "packs": [
     {
